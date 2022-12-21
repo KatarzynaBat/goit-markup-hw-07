@@ -495,6 +495,8 @@ footer .logo span {
   background-color: rgba(0, 0, 0, 0.2);
   z-index: 3;
   display: flex;
+  transition: opacity 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal {
   position: relative;
@@ -520,4 +522,5 @@ footer .logo span {
 .is-hidden {
   visibility: hidden;
   opacity: 0;
+  pointer-events: none;
 }
