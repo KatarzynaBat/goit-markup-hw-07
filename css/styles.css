@@ -253,7 +253,8 @@ footer .logo span {
     1px 4px 6px rgba(0, 0, 0, 0.16);
   cursor: pointer;
 }
-.portfolio-card:hover .porfolio-card-description {
+.portfolio-card:hover .porfolio-card-description,
+.portfolio-card:focus .porfolio-card-description {
   animation: change-figure-content 250ms forwards;
   animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
