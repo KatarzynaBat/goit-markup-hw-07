@@ -24,7 +24,7 @@
   <body>
     <div data-modal class="backdrop is-hidden">
       <div class="modal">
-        <button data-modal-close type="button">
+        <button class="close-modal-button" data-modal-close type="button">
           <img
             class="close-modal"
             width="11"
@@ -33,6 +33,69 @@
             alt="close"
           />
         </button>
+        <section>
+          <h2 class="modal-header">Zostaw swoje dane w formularzu poniżej</h2>
+        </section>
+        <form class="contact-form" autocomplete="on">
+          <label class="contact-details-label">
+            Imie
+            <input
+              class="contact-details-input"
+              name="email"
+              type="text"
+              required
+            />
+            <svg width="12" height="12" class="modal-icon">
+              <use href="/images/icons.svg#icon-person"></use>
+            </svg>
+          </label>
+          <label class="contact-details-label">
+            Telefon
+            <input
+              class="contact-details-input"
+              name="phone-number"
+              type="tel"
+            />
+            <svg width="13" height="13" class="modal-icon">
+              <use href="/images/icons.svg#icon-phone"></use>
+            </svg>
+          </label>
+          <label class="contact-details-label">
+            Email
+            <input
+              class="contact-details-input"
+              name="email"
+              type="email"
+              required
+            />
+            <svg width="15" height="12" class="modal-icon">
+              <use href="/images/icons.svg#icon-envelope-modal"></use>
+            </svg>
+          </label>
+          <label class="contact-details-label">
+            Komentarz
+            <textarea
+              class="contact-details-input comment"
+              name="comment"
+              type="text"
+              rows="5"
+              placeholder="Wprowadź tekst"
+            ></textarea>
+          </label>
+          <label class="website-regulations-label">
+            <svg width="11" height="8" class="checkbox-icon">
+              <use href="/images/icons.svg#icon-checkbox"></use>
+            </svg>
+            <input
+              class="website-regulations-checkbox"
+              type="checkbox"
+              value="rules-accepted"
+              required
+            />
+            <p>Oświadczam iż akceptuję Regulamin i Politykę Prywatności.</p>
+          </label>
+          <button class="modal-send-button" type="submit">Wyślij</button>
+        </form>
       </div>
     </div>
     <header class="top-bar">
@@ -461,6 +524,30 @@
               </a>
             </li>
           </ul>
+        </section>
+        <section class="newsletter-subscription">
+          <h4 class="bottom-four-header">zapisz się do newslettera</h4>
+          <form
+            class="subscriber-email-form"
+            name="subscriber-email"
+            autocomplete="on"
+          >
+            <label>
+              <input
+                class="subscriber-email-input"
+                type="email"
+                name="email"
+                placeholder="E-mail"
+                required
+              />
+            </label>
+            <button class="subscription-button" type="submit">
+              Zapisz się
+              <svg width="24" height="24" class="newsletter-icon">
+                <use href="/images/icons.svg#icon-newsletter-send"></use>
+              </svg>
+            </button>
+          </form>
         </section>
       </div>
     </footer>
