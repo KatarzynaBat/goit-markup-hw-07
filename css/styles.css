@@ -599,7 +599,7 @@ footer .logo span {
   position: relative;
 }
 .contact-details-label:hover .modal-icon,
-.contact-details-label:focus .modal-icon {
+.contact-details-label:focus-within .modal-icon {
   fill: var(--blue-color);
 }
 .contact-details-label:hover .contact-details-input,
