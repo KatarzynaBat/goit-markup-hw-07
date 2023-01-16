@@ -1,0 +1,18 @@
+.client {
+  &__logo-frame {
+    padding: 16px 32px;
+    border: 1px solid $svg-grey-color;
+    border-radius: 4px;
+  }
+  &__logo {
+    fill: $svg-grey-color;
+  }
+  &__logo-frame:hover,
+  &__logo-frame:focus {
+    border-color: $blue-color;
+  }
+  &__logo-frame:hover .client__logo,
+  &__logo-frame:focus .client__logo {
+    fill: $blue-color;
+  }
+}

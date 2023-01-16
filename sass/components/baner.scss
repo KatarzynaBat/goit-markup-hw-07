@@ -1,0 +1,29 @@
+.baner {
+  background-image: linear-gradient(
+      $transparent-gradient-color,
+      $transparent-gradient-color
+    ),
+    url("../images/background-photo.jpg");
+  background-repeat: no-repeat;
+  background-size: 1600px;
+  background-position: center;
+
+  &__header {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: $white-color;
+    width: 692px;
+  }
+
+  & .container {
+    padding: 200px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+}

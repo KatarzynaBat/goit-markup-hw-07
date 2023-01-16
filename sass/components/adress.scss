@@ -1,0 +1,15 @@
+.adress {
+  list-style: none;
+  margin-top: 20px;
+
+  $__details {
+    text-decoration: none;
+    font-style: normal;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: $white-color;
+  }
+}
+.adress li + li {
+  margin-top: 9px;
+}

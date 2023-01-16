@@ -1,9 +1,11 @@
 {
-  "prettier.enable": true,
-  "prettier.useTabs": true,
-  "prettier.htmlWhitespaceSensitivity": "css",
-  "prettier.bracketSpacing": true,
-  "prettier.bracketSameLine": true,
-  "prettier.endOfLine": "auto",
-  "editor.defaultFormatter": "esbenp.prettier-vscode"
+  "liveSassCompile.settings.formats": [
+    {
+      "format": "compressed",
+      "extensionName": ".min.css",
+      "savePath": "~/../css"
+    }
+  ],
+  "liveSassCompile.settings.generateMap": true,
+  "liveSassCompile.settings.autoprefix": [">1%", "last 2 versions"]
 }
