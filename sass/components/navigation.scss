@@ -1,11 +1,11 @@
 .top-bar {
   border-bottom: 1px solid $top-bar-line;
-}
-.top-bar .container {
-  display: flex;
-  align-items: center;
-}
 
+  & .container {
+    display: flex;
+    align-items: center;
+  }
+}
 .navigation {
   margin-left: 93px;
   margin-right: 371px;

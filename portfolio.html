@@ -303,8 +303,8 @@
             </ul>
           </address>
         </div>
-        <section class="bottom-social">
-          <h4 class="bottom-header">Dołącz do nas</h4>
+        <section>
+          <h4 class="bottom__header">Dołącz do nas</h4>
           <ul class="social">
             <li class="social__circle">
               <a href="#">
@@ -352,12 +352,12 @@
             </li>
           </ul>
         </section>
-        <section class="subscription">
-          <h4 class="bottom-header">zapisz się do newslettera</h4>
+        <section>
+          <h4 class="bottom__header">zapisz się do newslettera</h4>
           <form name="subscriber-email" autocomplete="on">
             <label for="subscriber-mail">
               <input
-                class="subscription__input"
+                class="bottom__input"
                 type="email"
                 name="email"
                 placeholder="E-mail"
@@ -365,12 +365,9 @@
                 id="subscriber-mail"
               />
             </label>
-            <button
-              class="order-button subscription__order-button"
-              type="submit"
-            >
+            <button class="order-button bottom__order-button" type="submit">
               Zapisz się
-              <svg width="24" height="24" class="newsletter-icon">
+              <svg width="24" height="24" class="bottom__newsletter-icon">
                 <use href="images/icons.svg#icon-newsletter-send"></use>
               </svg>
             </button>
