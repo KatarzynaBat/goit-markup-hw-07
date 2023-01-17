@@ -21,10 +21,10 @@
 }
 .client-logo-frame,
 .contact-details-input {
-  transition: border-color 250ms;
+  transition: border 250ms;
   transition-timing-function: $transition;
 }
-.porfolio__filter-button {
+.portfolio__filter-button {
   transition-property: color, background-color, box-shadow;
   transition-timing-function: $transition;
   transition-duration: 250ms;
